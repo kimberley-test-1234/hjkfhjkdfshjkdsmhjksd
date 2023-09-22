@@ -1,0 +1,6 @@
+config:
+  azure-native:location: WestUS
+  pulumi:template: static-website-azure-typescript
+  static-website-azure-typescript:errorDocument: error.html
+  static-website-azure-typescript:indexDocument: index.html
+  static-website-azure-typescript:path: ./www
